@@ -1,0 +1,232 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Display;
+    color: white;
+    
+}
+body{
+    background-color: black;
+}
+section{
+    margin: 0px 60px;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 100px;
+}
+.navbar div{
+    width: 33.3%;
+    
+}
+.logos{
+    padding: 10px;
+}
+.logos img{
+    width: 200px;
+}
+.nav-links{
+    position: relative;
+}
+.nav-links ul{
+    margin: auto;
+    display: block;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav-links ul li{
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.nav-button{
+    position: relative;
+}
+.nav-button button{
+    background: linear-gradient(90deg, #20D4FE 0%, #B722FF 100%);
+    padding: 13px 17px;
+    font-size: 1rem;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.nav-button button a{
+    text-decoration: none;
+    color: white;
+    
+}
+.sec-build-products img{
+width: 100%;
+}
+.build-products{
+    width: 60%;
+    margin: auto;
+    padding: 60px;
+}
+.build-products h2{
+    font-size: 60px;
+    text-align: center;
+}
+.scale{
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.build-products p{
+    margin: 2px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.services h3{
+    font-size: 2.7rem;
+    padding: 10px 0;
+}
+.subtitle{
+    font-size: 2.3rem;
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-service-card{
+    display: flex;
+    justify-content: center;
+}
+.services-card{
+    width: 40%;
+    height: 350px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(180, 155, 155);
+    font-size: large;
+}
+.services-card img{
+    width: 50px;
+    height: 50px;
+}
+
+.services-card h2, .services-card p, .services-card img{
+    margin-top: 20px;
+}
+.heading{
+    font-size: x-large;
+    padding: 20px;
+    width:50%;
+    height: 100%;
+}
+.software-understand{
+    width: 50%;
+}
+.sec-software-understand{
+    display: flex;
+}
+.inner-software{
+    height: 70px;
+    padding: 20px;
+}
+.img-inner-software i{
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.inner-software-understand{
+    display: flex;
+}
+.software-understand h2{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.software-understand p{
+font-size: 21px;
+margin-bottom: 1.5rem;
+}
+.sec-software-understand{
+    padding: 30px 0;
+}
+.software-understand{
+    padding-right: 20px;
+}
+.product-experence h2{
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.develop h2{
+    font-size: 36px;
+    padding: px;
+    margin-bottom: 40px;
+}
+.product-experence{
+    display: flex;
+    width: 95%;
+}
+.sec-user{
+    width: 33.33%;
+    height: 300px;
+    padding: 20px 0;
+    margin-right: 40px ;
+}
+.sec-user h1{
+    font-size: 35px;
+}
+.sec-user p{
+    font-size: 20px;
+    text-align: justify;
+}
+.sec-user .subtitle{
+    font-size: 60px;
+    font-weight: bold;
+}
+.last-sec{
+    width: 25%;
+    padding: 40px 0;
+    
+}
+.footer-sec{
+    display: flex;
+}
+.footer-2, .footer-3, .footer-4{
+    text-align: center;
+}
+.footer-sec ul{
+    margin: 10px;
+}
+.footer-sec li{
+    list-style-type: none;
+    padding: 15px;
+}
+.footer-1 p{
+    padding: 10px 0;
+    line-height: 1.5rem;
+}
+
+.Copyright-para{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    font-size: 1.5rem;
+    padding-top: 20px;
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    gap: 1rem;
+}

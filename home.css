@@ -1,0 +1,362 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Display;
+    color: white;
+    
+}
+body{
+    background-color: black;
+}
+section{
+    margin: 0px 60px;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 100px;
+}
+.navbar div{
+    width: 33.3%;
+    
+}
+.logos{
+    padding: 10px;
+}
+.logos img{
+    width: 200px;
+}
+.nav-links{
+    position: relative;
+}
+.nav-links ul{
+    margin: auto;
+    display: block;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav-links ul li{
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.nav-button{
+    position: relative;
+}
+.nav-button button{
+    background: linear-gradient(90deg, #20D4FE 0%, #B722FF 100%);
+    padding: 13px 17px;
+    font-size: 1rem;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.nav-button button a{
+    text-decoration: none;
+    color: white;
+}
+.first-sec{
+    text-align: center;
+    padding: 60px;
+}
+.first-sec h1{
+    font-size: 60px;
+}
+.first-sec p{
+    font-size: 20px;
+    padding: 40px;
+}
+.first-sec span{
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.second-sec{
+    display: flex;
+    margin-top: 100px;
+  
+}
+.img-sec{
+    width: 25%;
+    border: 6px solid rgb(0, 0, 0);
+  
+}
+.second-sec img{
+    width: 100%;
+}
+.img-sec-center{
+    width: 50%;
+    border: 5px solid black;
+}
+.img-sec-center img{
+    width: 100%;
+}
+.third-sec h2{
+    font-size: xx-large;
+    margin-top: 80px;
+}
+.third-sec span{
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.third-sec h1{
+    font-size: 40px;
+}
+.section-service-card{
+    display: flex;
+    justify-content: center;
+}
+.services-card{
+    width: 40%;
+    height: 350px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(180, 155, 155);
+    font-size: large;
+}
+.services-card img{
+    width: 50px;
+    height: 50px;
+}
+
+.services-card h2, .services-card p, .services-card img{
+    margin-top: 20px;
+}
+.arrow-sec h2{
+    text-align: right;
+    padding-right: 100px;
+    margin: 40px;
+
+}
+.fourth-sec{
+    display: flex;
+    padding: 50px 0px;
+}
+.first-div{
+    width: 50%;
+}
+.first-div h2{
+    font-size: 35px;
+}
+.first-div h1{
+    font-size: 40px;
+}
+.first-div p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.first-div span{
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.second-div{
+    display: flex;
+    width: 50%;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.inner-experience{
+    padding: 20px;
+    width: fit-content;  
+}
+.inner-experience span{
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.inner-experience h1{
+    font-size: 40px;
+}
+.fifth-sec{
+    display: flex;
+}
+.img-section{
+    width: 50%;
+}
+.fifth-sec img{
+    width: 100%;
+}
+.text-sec{
+    
+    width: 50%;
+}
+
+.right-text{
+    width: 50%;
+}.text-sec h2{
+    font-size: 42px;
+}
+.item-div{
+    display: flex;
+    font-size: 20px;
+
+}
+.head h2{
+    padding: 25px;
+}
+.counter span{
+    font-size: 34px;
+    padding: 25px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content p{
+    margin-top: 20px;
+}
+.port-sec h2{
+    font-size: 35px;
+    text-align: center;
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 90px;
+}
+.port-sec h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.main-div-sec{
+    display: flex;
+    margin-top: 100px;
+}
+.two-img-sec{
+    width: 25%;
+}
+.last-img-sec{
+    width: 25%;
+}
+.two-img-sec img{
+    width: 100%;
+}
+.last-img-sec img{
+    width: 100%;
+}
+.one-img-sec{
+    width: 50%;
+    margin: 0px 20px;
+   
+}
+.one-img-sec img{
+    width: 100%;
+    height: 540px;
+}
+.test-div h2{
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 4.5rem;
+    font-size: 35px;
+}
+.test-div h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 1.2rem;
+}
+.first-block-div{
+  
+    width: 50%;
+}
+.second-block-div{
+  
+    width: 50%;
+}
+.danny-div{
+    display: flex;
+    height: 500px;
+}
+.block-one{
+    background-color: #2D2D2D;;
+    width: 80%;
+    margin: auto;
+    height: 140px;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.block-one img{
+    width: 70px;
+
+}
+.block-one-inner {
+    padding: 20px;
+}
+.second-block-inner-div{
+    padding: 20px;
+    margin-top: 30px;
+}
+.second-block-inner-div h3{
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+}
+.second-block-inner-div p{
+    font-size: 20px;
+}
+.second-block-inner-div span{
+    color: yellow;
+    font-size: x-large;
+}
+.last-sec{
+    width: 25%;
+    padding: 40px 0;
+    
+}
+.footer-sec{
+    display: flex;
+}
+.footer-2, .footer-3, .footer-4{
+    text-align: center;
+}
+.footer-sec ul{
+    margin: 10px;
+}
+.footer-sec li{
+    list-style-type: none;
+    padding: 15px;
+}
+.footer-1 p{
+    padding: 10px 0;
+    line-height: 1.5rem;
+}
+
+.Copyright-para{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    font-size: 1.5rem;
+    padding-top: 20px;
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    gap: 1rem;
+}
